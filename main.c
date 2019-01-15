@@ -47,6 +47,17 @@ int main()
         }
         if (code == 3)
         {
+            char x;
+			int i = 0;
+			printf("shuchusouyouminganci:\n");
+			for(;i<index;i++){
+				printf("%c\n",arr[i]);
+			}
+
+			printf("dianjihuichejixu\n");
+			scanf("%c",&x);
+			scanf("%c",&x);
+
         }
         if (code == 4)
         {
