@@ -12,7 +12,7 @@ int main()
         printf("1---zengjiaminganzici\n");
         printf("2---shanchuzuihouyigeminganci\n");
         printf("3---xianshiquanbuminganci\n");
-        printf("4---tihuanshuruneirongzhaongdeminganci\n"); //把所有的敏感字符全部替换为*
+        printf("4---tihuanshuruneirongzhaongdeminganci\n"); 
         printf("5---tuichuxitong\n");
 
         printf("qingshuruxiangyingdegongnengbianhao\n");
@@ -21,6 +21,18 @@ int main()
 
         if (code == 1)
         {
+            char a;
+			char x;
+			printf("qingshuruyaotianjiademinganzifu：\n");
+			scanf("%c",&a);
+			scanf("%c",&a);
+			
+			arr[index] = a;
+			index++;
+
+			printf("tianjiachenggong,dianjihuichejixcu\n");
+			scanf("%c",&x);
+			scanf("%c",&x);
         }
         if (code == 2)
         {
